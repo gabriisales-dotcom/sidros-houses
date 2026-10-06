@@ -168,6 +168,7 @@ window.SIDROS_EN = {
     'Seguir': 'Follow us',
     'Reclamações': 'Complaints',
     'Livro de Reclamações': 'Complaints Book',
+    'Política de Privacidade': 'Privacy Policy',
     'Sidrós Houses · Alojamento Local · Todos os direitos reservados.': 'Sidrós Houses · Local Accommodation · All rights reserved.',
 
     /* Álbum (partes montadas pelo main.js) */

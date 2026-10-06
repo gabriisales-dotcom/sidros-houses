@@ -942,7 +942,7 @@
     const metaDesc = document.querySelector('meta[name="description"]');
     const PT_META = { title: document.title, desc: metaDesc ? metaDesc.content : '' };
     /* zonas que o JS reescreve sozinho, ou que não são texto */
-    const SALTA = 'svg, script, style, .lang, [data-campo], #voltaCartoes, .album__titulo, .album__conta, .album__miniaturas';
+    const SALTA = 'svg, script, style, .lang, .cookies, [data-campo], #voltaCartoes, .album__titulo, .album__conta, .album__miniaturas';
     const SALTA_ATTR = '#burger, #voltaCartoes, .album__quadro, .album__leitor, .album__miniaturas *';
     const ATTRS = ['aria-label', 'alt', 'aria-roledescription'];
     const norm = (s) => s.replace(/\s+/g, ' ').trim();
@@ -950,7 +950,7 @@
     let pedido = null, alvos = null;
     const carregarEN = () => pedido || (pedido = new Promise((ok, falha) => {
       const s = document.createElement('script');
-      s.src = 'js/en.js?v=20261006b';
+      s.src = 'js/en.js?v=20261006d';
       s.onload = () => (window.SIDROS_EN ? ok(window.SIDROS_EN) : falha());
       s.onerror = () => { pedido = null; s.remove(); falha(); };
       document.head.append(s);

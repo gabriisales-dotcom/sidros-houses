@@ -954,12 +954,14 @@ html.album-aberto .zap{opacity:0;--zap-toque:none}
 /* telemóvel: como na referência, a fila some; fica a fotografia, o texto e o controlo */
 @media (max-width:760px){
   .volta{align-content:end;grid-template-rows:auto auto}
-  .volta__palco{grid-template-columns:1fr;padding-inline:var(--gutter);align-self:end}
+  .volta__palco{grid-template-columns:minmax(0,1fr);padding-inline:var(--gutter);align-self:end}
   .volta__fila{display:none}
   .volta__veu{background:linear-gradient(0deg,rgba(31,35,22,.88) 0%,rgba(31,35,22,.55) 48%,rgba(31,35,22,.15) 100%)}
   .volta__rotulo span{display:none}
   .volta__desc{font-size:14.5px}
   .volta__acoes .btn{flex:1 1 100%;justify-content:center}
+  /* textos longos (EN) partem em duas linhas em vez de saírem do ecrã */
+  .btn{white-space:normal;text-align:center;line-height:1.3;padding-block:12px}
   .volta__controlo{padding-left:var(--gutter);padding-right:88px;margin-top:26px;gap:16px}
   .volta__contador{font-size:40px}
   .volta__nome{min-height:0}

@@ -46,7 +46,6 @@ window.SIDROS_EN = {
     'Conhecer a casa': 'Explore the house',
 
     /* História */
-    'Começou numa noite de conversa com <em>amigos</em>.': 'It all started one night, talking with <em>friends</em>.',
     'Um sonho que ganhou forma, com o desejo de partilhar a tranquilidade, a beleza e a autenticidade da nossa aldeia. Aqui, quem chega deixa de ser apenas hóspede e passa a fazer parte da nossa história.':
       'A dream that grew from a simple wish: to share the peace, beauty and authenticity of our village. Here, you’re not just a guest. You become part of our story.',
     'Entre noites longas de conversa, momentos de partilha e histórias que ficam na memória, o tempo abranda e a vida ganha outro ritmo. Mais do que um alojamento, queremos que se sinta em casa.':
